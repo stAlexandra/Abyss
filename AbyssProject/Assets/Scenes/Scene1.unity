@@ -122,7 +122,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4601674261664658, guid: feb468c9592ee874abff65206f432dd5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.81
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4601674261664658, guid: feb468c9592ee874abff65206f432dd5, type: 2}
       propertyPath: m_LocalPosition.y
@@ -155,6 +155,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: feb468c9592ee874abff65206f432dd5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &796999657 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1192896404620438, guid: feb468c9592ee874abff65206f432dd5,
+    type: 2}
+  m_PrefabInternal: {fileID: 796999656}
+--- !u!114 &796999658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 796999657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971ac4a31fb93424aaa9b298c54334eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1040766742
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,11 +261,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4373228473936808, guid: d545f6bce0351ce45a998e388c0b5f78, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.86
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4373228473936808, guid: d545f6bce0351ce45a998e388c0b5f78, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.72
+      value: -3.21
       objectReference: {fileID: 0}
     - target: {fileID: 4373228473936808, guid: d545f6bce0351ce45a998e388c0b5f78, type: 2}
       propertyPath: m_LocalPosition.z
@@ -274,6 +290,10 @@ Prefab:
     - target: {fileID: 4373228473936808, guid: d545f6bce0351ce45a998e388c0b5f78, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373228473936808, guid: d545f6bce0351ce45a998e388c0b5f78, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d545f6bce0351ce45a998e388c0b5f78, type: 2}
